@@ -1,0 +1,59 @@
+.button {
+  width: 15px;
+  height: 15px;
+  display: inline-block;
+  padding: 1px;
+  cursor: pointer;
+  border: solid 1px #fff;
+  }
+   
+.button:hover {
+  border: solid 1px #f00;
+}
+   
+.button:active {
+  border: solid 1px #ff0;
+}
+  
+#canvas {
+  display: inline-block;
+  border: solid 1px black;
+  cursor: default;
+  vertical-align: top;
+}
+  
+#palette {
+  width: 60px;
+  display: inline-block;
+  cursor: default;
+  vertical-align: top;
+}
+  
+#clear, #rotateRight, #rotateLeft, #replay, #save{
+  display: inline-block;
+  background: #eee;
+  color: #777;
+  padding: 10px;
+  width: 55px;
+  text-align: center;
+  margin: 15px auto;
+  cursor: pointer;
+}
+  
+.container {
+    white-space: normal;
+    width: 710px;
+}
+
+.wrapper {
+  border: solid 1px #aaa;
+  cursor: default;
+  vertical-align: top;
+}
+
+#width {
+display: inline-block;
+cursor: default;
+color: #777;
+}
+
